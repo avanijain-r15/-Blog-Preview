@@ -1,0 +1,74 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+#author {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.card {
+  height: fit-content;
+  width: 40%;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 5px 5px black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 50%);
+  font-weight: 600;
+}
+
+.fw-600{
+  font-weight: 600;
+}
+
+.data {
+  padding: 15px;
+}
+
+.picture {
+  padding: 15px;
+  height: fit-content;
+}
+
+.picture img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.tag {
+  height: 25px;
+  width: 30%;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+}
+
+@media (min-width: 375px) and (max-width: 430px){
+  .card{
+    width: 80%;
+  }
+  
+}
